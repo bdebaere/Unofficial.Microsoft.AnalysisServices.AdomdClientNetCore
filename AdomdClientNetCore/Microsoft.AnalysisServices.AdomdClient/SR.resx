@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Connection_EffectiveUserNameEmpty" xml:space="preserve">
+    <value>The effective user name cannot be empty.</value>
+  </data>
+  <data name="Member_MissingLevelName" xml:space="preserve">
+    <value>The LevelUniqueName property is missing from the data set returned by the provider.</value>
+  </data>
+  <data name="Connection_SessionID_SessionIsAlreadyOpen" xml:space="preserve">
+    <value>The SessionID property cannot be set after the connection is open.</value>
+  </data>
+  <data name="CellSet_InvalidStateOfReader" xml:space="preserve">
+    <value>The State property of the input XMLReader object is not valid: '{0}'.</value>
+  </data>
+  <data name="Command_OnlyTransactionAssociatedWithTheSameConnectionCanBeAssigned" xml:space="preserve">
+    <value>The transaction cannot be assigned because the connection object associated with the transaction and the connection object associated with the command are different.</value>
+  </data>
+  <data name="Indexer_ObjectNotFound" xml:space="preserve">
+    <value>The '{0}' object was not found.</value>
+  </data>
+  <data name="Member_MissingLevelDepth" xml:space="preserve">
+    <value>The LevelDepth property is missing from the data set returned by the provider.</value>
+  </data>
+  <data name="ArgumentErrorInvalidSchemaObjectType" xml:space="preserve">
+    <value>The schemaObjectType parameter should be a valid SchemaObjectType value.</value>
+  </data>
+  <data name="Connection_FailedToSetProperty" xml:space="preserve">
+    <value>The '{0}' property cannot be set to '{1}'. Ensure that the property is writable.</value>
+  </data>
+  <data name="Connection_InvalidProperty" xml:space="preserve">
+    <value>The server did not return the '{0}' property.</value>
+  </data>
+  <data name="MetadataCache_Abandoned" xml:space="preserve">
+    <value>This object belongs to a metadata cache that is out of date. The object should no longer be used.</value>
+  </data>
+  <data name="CellIndexer_InvalidIndexType" xml:space="preserve">
+    <value>The index type for axis '{0}' is not valid. The index must be an integer.</value>
+  </data>
+  <data name="Connection_ConnectionString_NotInitialized" xml:space="preserve">
+    <value>The ConnectionString property has not been initialized.</value>
+  </data>
+  <data name="Command_CommandStreamDoesNotSupportReadingFrom" xml:space="preserve">
+    <value>The CommandStream property cannot be set to a stream that does not support read operations.</value>
+  </data>
+  <data name="Server_NoServerName" xml:space="preserve">
+    <value>The DataSource string is not valid.</value>
+  </data>
+  <data name="Property_PropertyNotFound" xml:space="preserve">
+    <value>The property was not found: '{0}’.</value>
+  </data>
+  <data name="Connection_DatabaseNameEmpty" xml:space="preserve">
+    <value>The database name cannot be empty.</value>
+  </data>
+  <data name="DatasetResponse_HierarchyWithSameNameOnSameAxis" xml:space="preserve">
+    <value>The '{0}' hierarchy appears more than once on the '{1}' axis.</value>
+  </data>
+  <data name="Connection_ShowHiddenObjects_ConnectionAlreadyOpen" xml:space="preserve">
+    <value>The ShowHiddenObjects property cannot be set after the connection is open.</value>
+  </data>
+  <data name="Metadata_CubesCollectionHasbeenUpdated" xml:space="preserve">
+    <value>The Cubes collection has been updated on the server.</value>
+  </data>
+  <data name="Property_Key_Wrong_Type" xml:space="preserve">
+    <value>The key is of an unexpected type.</value>
+  </data>
+  <data name="Schema_InvalidGuid" xml:space="preserve">
+    <value>The GUID provided is not a valid schema rowset GUID.</value>
+  </data>
+  <data name="Command_InvalidTimeout" xml:space="preserve">
+    <value>The value of the Timeout property on the Command object, '{0}', is not valid.</value>
+  </data>
+  <data name="Restrictions_TypesMismatch" xml:space="preserve">
+    <value>A type mismatch occurred for the '{0}' restriction. '{1}' was expected, but '{2}' was supplied.</value>
+  </data>
+  <data name="NotSupportedWhenConnectionMissing" xml:space="preserve">
+    <value>The method specified is not supported because the object has no associated connection.</value>
+  </data>
+  <data name="Command_ConnectionIsNotOpened" xml:space="preserve">
+    <value>The connection is not open.</value>
+  </data>
+  <data name="Parameter_Value_Wrong_Type" xml:space="preserve">
+    <value>The value must be of type AdomdParameter.</value>
+  </data>
+  <data name="Connection_NoInformationAboutDataSourcesReturned" xml:space="preserve">
+    <value>The provider either did not return any data sources, or it did not return a value for the DataSourceInfo property.</value>
+  </data>
+  <data name="Property_Parent_Mismatch" xml:space="preserve">
+    <value>The property already belongs to another collection.</value>
+  </data>
+  <data name="Schema_RestOutOfRange" xml:space="preserve">
+    <value>The number of restrictions is out of range.</value>
+  </data>
+  <data name="ICollection_CannotCopyToMultidimensionalArray" xml:space="preserve">
+    <value>The collection elements cannot be copied to a multidimensional array.</value>
+  </data>
+  <data name="CellIndexer_InvalidNumberOfAxesIndexers" xml:space="preserve">
+    <value>The number of axis indexers is not valid: '{0}' axes are present, and an attempt was made to index by '{1}' axes.</value>
+  </data>
+  <data name="ICollection_ItemWithThisNameDoesNotExistInTheCollection" xml:space="preserve">
+    <value>The item with the name specified does not exist in the collection.</value>
+  </data>
+  <data name="Metadata_CubeHasbeenUpdated" xml:space="preserve">
+    <value>The '{0}' cube has been updated on the server.</value>
+  </data>
+  <data name="NotSupportedOnNonCellsetMember" xml:space="preserve">
+    <value>The specified method is not supported on Member objects that are not part of a cellset.</value>
+  </data>
+  <data name="TransactionAlreadyComplete" xml:space="preserve">
+    <value>The transaction is already complete.</value>
+  </data>
+  <data name="Connection_ConnectionToLocalServerNotSupported" xml:space="preserve">
+    <value>Connections to the server context that is currently active are not supported.</value>
+  </data>
+  <data name="Property_Value_Wrong_Type" xml:space="preserve">
+    <value>The value must be of type AdomdProperty.</value>
+  </data>
+  <data name="Metadata_MiningServicesCollectionHasbeenUpdated" xml:space="preserve">
+    <value>The MiningServices collection has been updated on the server.</value>
+  </data>
+  <data name="Property_UnknownProperty" xml:space="preserve">
+    <value>The '{0}' property is not recognized.</value>
+  </data>
+  <data name="Parameter_Already_Exists" xml:space="preserve">
+    <value>The '{0}' parameter already exists in the collection.</value>
+  </data>
+  <data name="InvalidOperationPriorToFetchAllProperties" xml:space="preserve">
+    <value>The operation is not valid because of the current state of the object. You can use the FetchAllProperties method to retrieve the data necessary from the server to enable this operation.</value>
+  </data>
+  <data name="NotSupportedByProvider" xml:space="preserve">
+    <value>The method specified is not supported by the current provider.</value>
+  </data>
+  <data name="Command_CommandTextCommandStreamNotSet" xml:space="preserve">
+    <value>Neither the CommandText property nor the CommandStream property is set.</value>
+  </data>
+  <data name="Schema_PropertyIsMissingOrOfAnUnexpectedType" xml:space="preserve">
+    <value>The value of the '{0}' property in the '{1}' schema is either missing or of an unexpected type.</value>
+  </data>
+  <data name="Parameter_Parent_Mismatch" xml:space="preserve">
+    <value>The parameter already belongs to another collection.</value>
+  </data>
+  <data name="Server_IsNotConnected" xml:space="preserve">
+    <value>The connection is not open.</value>
+  </data>
+  <data name="Schema_UnexpectedResponseForSchema" xml:space="preserve">
+    <value>The format of the response is unexpected for the ‘{0}’ schema.</value>
+  </data>
+  <data name="Property_DoesNotExist" xml:space="preserve">
+    <value>The property does not exist in the collection.</value>
+  </data>
+  <data name="Command_CommandTextCommandStreamBothSet" xml:space="preserve">
+    <value>Both the CommandText and CommandStream properties are set. Only one property can be set.</value>
+  </data>
+  <data name="Member_MissingDisplayInfo" xml:space="preserve">
+    <value>The DisplayInfo property is missing from the data set returned by the provider.</value>
+  </data>
+  <data name="Connection_PropertyNameEmpty" xml:space="preserve">
+    <value>The property name cannot be empty.</value>
+  </data>
+  <data name="ArgumentErrorUniqueNameEmpty" xml:space="preserve">
+    <value>The uniqueName parameter should not be empty.</value>
+  </data>
+  <data name="InvalidArgument" xml:space="preserve">
+    <value>Invalid argument.</value>
+  </data>
+  <data name="Cellset_propertyIsUnknown" xml:space="preserve">
+    <value>The provider did not return the '{0}' property.</value>
+  </data>
+  <data name="Property_Already_Exists" xml:space="preserve">
+    <value>The property already exists in the collection.</value>
+  </data>
+  <data name="Server_IsAlreadyConnected" xml:space="preserve">
+    <value>A connection is already open.</value>
+  </data>
+  <data name="ArgumentErrorUnsupportedParameterType" xml:space="preserve">
+    <value>Command parameter values of type '{0}' are not supported.</value>
+  </data>
+  <data name="ICollection_NotEnoughSpaceToCopyTo" xml:space="preserve">
+    <value>Not enough space is available in the array to which the collection elements are being copied. Available: '{0}'. Required: '{1}'.</value>
+  </data>
+  <data name="CellIndexer_IndexOutOfRange" xml:space="preserve">
+    <value>The index for axis '{0}' is out of range. It must be greater than or equal to '0' and less than '{1}'.</value>
+  </data>
+  <data name="Command_ConnectionIsNotSet" xml:space="preserve">
+    <value>The Connection property was not set on the Command object.</value>
+  </data>
+  <data name="Command_OnlyAdomdTransactionObjectIsSupported" xml:space="preserve">
+    <value>The object cannot be assigned because its type is not AdomdTransaction.</value>
+  </data>
+  <data name="Resultset_IsNotDataset" xml:space="preserve">
+    <value>The result set returned by the server is not a cellset or a multidimensional data set.</value>
+  </data>
+  <data name="Command_OnlyActiveTransactionCanBeAssigned" xml:space="preserve">
+    <value>The transaction cannot be assigned because the transaction has been completed.</value>
+  </data>
+</root>

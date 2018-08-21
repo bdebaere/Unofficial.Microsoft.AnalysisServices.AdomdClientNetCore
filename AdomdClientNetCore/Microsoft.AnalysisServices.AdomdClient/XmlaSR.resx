@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DimeRecord_MediaTypeNotDefined" xml:space="preserve">
+    <value>DIME protocol error: The MediaType property must be defined.</value>
+  </data>
+  <data name="XmlaClient_SendRequest_RequestStreamCannotBeRead" xml:space="preserve">
+    <value>The request stream cannot be read.</value>
+  </data>
+  <data name="DimeRecord_NameMustNotBeDefinedForFormatNone" xml:space="preserve">
+    <value>DIME protocol error: The type name must not be defined if the type format is set to None.</value>
+  </data>
+  <data name="DataReaderClosedError" xml:space="preserve">
+    <value>The data reader object is closed.</value>
+  </data>
+  <data name="MissingElement" xml:space="preserve">
+    <value>XML for Analysis protocol error: The '{0}' element in the '{1}' namespace is expected.</value>
+  </data>
+  <data name="ConnectionString_InvalidIdentityProviderForIntegratedSecurityFederated" xml:space="preserve">
+    <value>The identity provider you specified cannot be used when integrated security is set to federated.</value>
+  </data>
+  <data name="ConnectionString_LinkFileDupEffectiveUsername" xml:space="preserve">
+    <value>If Kerberos delegation is not configured, the EffectiveUserName property in the connection string must be the same as the impersonated user.</value>
+  </data>
+  <data name="DimeRecord_InvalidContentLength" xml:space="preserve">
+    <value>DIME protocol error: The ContentLength property must be -1 for a chunked DIME message. Otherwise, ContentLength must be positive.</value>
+  </data>
+  <data name="UnexpectedElement" xml:space="preserve">
+    <value>XML for Analysis protocol error: The '{0}' element is unexpected in the '{1}' namespace.</value>
+  </data>
+  <data name="ConnectionString_InvalidProtectionLevelForHttp" xml:space="preserve">
+    <value>The protection level '{0}' is not supported for HTTP connections.</value>
+  </data>
+  <data name="Decompression_Failed" xml:space="preserve">
+    <value>Decompression of data failed. Compressed data size: {0}. Expected decompressed data size: {1}. Actual decompressed data size: {2}.</value>
+  </data>
+  <data name="Authentication_Sspi_PackageDoesntSupportCapability" xml:space="preserve">
+    <value>Authentication failed: The '{0}' SSPI package does not support '{1}'.</value>
+  </data>
+  <data name="ExceptionRequiresXmlaErrorsInMessagesSection" xml:space="preserve">
+    <value>XML for Analysis protocol error: The engine returned an exception, but an error does not appear in the Messages section.</value>
+  </data>
+  <data name="DimeRecord_TypeFormatShouldBeMedia" xml:space="preserve">
+    <value>DIME protocol error: A chunk with the '{0}' type format was encountered. The type format must be Media (value 0x01) for the first chunk.</value>
+  </data>
+  <data name="DimeRecord_OnlySingleRecordMessagesAreSupported" xml:space="preserve">
+    <value>DIME protocol error: A message with multiple records was encountered. Only single-record messages are supported.</value>
+  </data>
+  <data name="MessagesSectionIsEmpty" xml:space="preserve">
+    <value>XML for Analysis protocol error: The engine returned an empty Messages section.</value>
+  </data>
+  <data name="DimeRecord_InvalidHeaderFlags" xml:space="preserve">
+    <value>DIME protocol error: The header combination is not valid: BeginOfMessage='{0}', EndOfMessage='{1}', Chunked='{2}'.</value>
+  </data>
+  <data name="InternalErrorAndInvalidBufferType" xml:space="preserve">
+    <value>Internal error. Unexpected security buffer data type.</value>
+  </data>
+  <data name="IXMLAInterop_StreamDoesNotSupportReverting" xml:space="preserve">
+    <value>The stream does not support Revert method.</value>
+  </data>
+  <data name="XmlaClient_StartRequest_ThereIsAnotherPendingRequest" xml:space="preserve">
+    <value>An open request writer already exists.</value>
+  </data>
+  <data name="DimeRecord_StreamShouldBeReadable" xml:space="preserve">
+    <value>DIME protocol error: The stream cannot be read.</value>
+  </data>
+  <data name="DimeRecord_WriteNotAllowed" xml:space="preserve">
+    <value>DIME protocol error: Write operations are not allowed.</value>
+  </data>
+  <data name="ConnectionString_LinkFileCannotRevert" xml:space="preserve">
+    <value>Unable to revert to the process identity.</value>
+  </data>
+  <data name="DimeRecord_UnableToReadFromStream" xml:space="preserve">
+    <value>DIME protocol error: The required bytes cannot be read from the stream.</value>
+  </data>
+  <data name="UnsupportedMethod" xml:space="preserve">
+    <value>{0} is not supported.</value>
+  </data>
+  <data name="ConnectionBroken" xml:space="preserve">
+    <value>The connection either timed out or was lost.</value>
+  </data>
+  <data name="DimeWriter_InvalidDefaultChunkSize" xml:space="preserve">
+    <value>DIME protocol error: The default chunk size must be greater than zero.</value>
+  </data>
+  <data name="DimeRecord_EncodedTypeLengthExceeds8191" xml:space="preserve">
+    <value>DIME protocol error: The length of the encoded type exceeds 8191 bytes.</value>
+  </data>
+  <data name="ConnectionString_InvalidCharInPropertyName" xml:space="preserve">
+    <value>The '{0}' character (at index {1} in the connection string) cannot appear in a property name.</value>
+  </data>
+  <data name="ConnectionString_AsAzure_DataSourcePathMoreThanOneSegment" xml:space="preserve">
+    <value>Not supported data source for AS Azure connections: the resource path should consist of only one segment.</value>
+  </data>
+  <data name="IXMLAInterop_StreamCannotBeCloned" xml:space="preserve">
+    <value>The stream cannot be cloned.</value>
+  </data>
+  <data name="DimeRecord_DataTypeShouldBeSpecifiedOnTheFirstChunk" xml:space="preserve">
+    <value>DIME protocol error: The record data type must be specified in the first chunk.</value>
+  </data>
+  <data name="Authentication_MsoID_InternalError" xml:space="preserve">
+    <value>Sign in failed because an internal error occurred in Microsoft Online Services Sign In Assistant.</value>
+  </data>
+  <data name="DimeReader_PreviousRecordStreamStillOpened" xml:space="preserve">
+    <value>DIME protocol error: The stream of the previous record is still open.</value>
+  </data>
+  <data name="Authentication_MsoID_SsoFailedNonDomainUser" xml:space="preserve">
+    <value>Single sign-on failed because the user is not a valid account in Windows domain.</value>
+  </data>
+  <data name="Compression_InitializationFailed" xml:space="preserve">
+    <value>Compression initialization failed.</value>
+  </data>
+  <data name="ConnectionString_DataSourceNotSpecified" xml:space="preserve">
+    <value>A data source must be specified in the connection string.</value>
+  </data>
+  <data name="Authentication_MsoID_MissingSignInAssistant" xml:space="preserve">
+    <value>Sign in failed because a component used for this purpose (msoidcli.dll) was not found on your computer. Please verify that Microsoft Online Services Sign In Assistant is installed.</value>
+  </data>
+  <data name="Authentication_Sspi_SchannelUnsupportedImpersonationLevel" xml:space="preserve">
+    <value>Authentication failed: Unsupported impersonation level for Schannel.</value>
+  </data>
+  <data name="Authentication_Failed" xml:space="preserve">
+    <value>Authentication failed.</value>
+  </data>
+  <data name="ConnectionString_InvalidIntegratedSecurityForHttpOrHttps" xml:space="preserve">
+    <value>The integrated security '{0}' is not supported for HTTP or HTTPS connections.</value>
+  </data>
+  <data name="ServerDidNotProvideErrorInfo" xml:space="preserve">
+    <value>The server did not provide extended error information.</value>
+  </data>
+  <data name="XmlaClient_CannotConnectToLocalCubeWithRestictedClient" xml:space="preserve">
+    <value>Cannot connect to local cube since the 'Restricted Client' property is set to 'true'.</value>
+  </data>
+  <data name="NonSequentialColumnAccessError" xml:space="preserve">
+    <value>Columns must be accessed in sequential order when the CommandBehavior property is set to SequentialAccess.</value>
+  </data>
+  <data name="DimeRecord_StreamIsClosed" xml:space="preserve">
+    <value>DIME protocol error: The stream is closed.</value>
+  </data>
+  <data name="IXMLAInterop_StreamDoesNotSupportUnlocking" xml:space="preserve">
+    <value>The stream does not support the UnlockRegion method.</value>
+  </data>
+  <data name="ConnectionString_InvalidProtectionLevelForHttps" xml:space="preserve">
+    <value>The protection level '{0}' is not supported for HTTPS connections.</value>
+  </data>
+  <data name="Authentication_MsoID_InvalidCredentials" xml:space="preserve">
+    <value>Sign in failed because the user ID or password is incorrect.</value>
+  </data>
+  <data name="ConnectionString_LinkFileCannotDelegate" xml:space="preserve">
+    <value>If Kerberos delegation is not configured, the allowDelegation flag should be turned on.</value>
+  </data>
+  <data name="DimeRecord_DataTypeIsOnlyForTheFirstChunk" xml:space="preserve">
+    <value>DIME protocol error: The record data type can be specified only in the first chunk.</value>
+  </data>
+  <data name="DimeReader_IsClosed" xml:space="preserve">
+    <value>DIME protocol error: The DimeReader object is closed.</value>
+  </data>
+  <data name="ConnectionString_PropertyNameNotDefined" xml:space="preserve">
+    <value>The property name is not defined before the equal sign (at index {0} in the connection string).</value>
+  </data>
+  <data name="DimeRecord_ReservedFlagShouldBeZero" xml:space="preserve">
+    <value>DIME protocol error: A record with the reserved flag '{0}' was encountered. Only a value of 0 is supported in this version.</value>
+  </data>
+  <data name="Authentication_ClaimsToken_IdentityProviderFormatInvalid" xml:space="preserve">
+    <value>Authentication failed: Identity Provider format is invalid for ClaimsToken, expected format: &lt;AAD authority url&gt;[,&lt;AAD application id&gt;].</value>
+  </data>
+  <data name="Reconnect_ConnectionInfoIsMissing" xml:space="preserve">
+    <value>A connection cannot be reestablished because the connection properties were either lost when the connection was terminated or were not set.</value>
+  </data>
+  <data name="Instance_NotFound" xml:space="preserve">
+    <value>The '{0}' instance was not found on the '{1}' server.</value>
+  </data>
+  <data name="DimeWriter_CannotWriteToStream" xml:space="preserve">
+    <value>DIME protocol error: The stream cannot be written to.</value>
+  </data>
+  <data name="ErrorCodeIsMissingFromDatasetError" xml:space="preserve">
+    <value>XML for Analysis protocol error: The data set error is missing an error code.</value>
+  </data>
+  <data name="XmlaClient_SendRequest_ThereIsAnotherPendingResponse" xml:space="preserve">
+    <value>An open response reader already exists.</value>
+  </data>
+  <data name="DimeRecord_DataTypeNotSupported" xml:space="preserve">
+    <value>DIME protocol error: A record has a '{0}' data type, which is unsupported.</value>
+  </data>
+  <data name="ConnectionString_MissingPassword" xml:space="preserve">
+    <value>Connection string is missing a password property.</value>
+  </data>
+  <data name="ConnectionString_InvalidIntegratedSecurityForNative" xml:space="preserve">
+    <value>The integrated security '{0}' is not supported for native connections.</value>
+  </data>
+  <data name="Authentication_AsAzure_OnlyClaimsTokenSupported" xml:space="preserve">
+    <value>Authentication failed: AS Azure connections support only ClaimsToken integrated security.</value>
+  </data>
+  <data name="Connect_RedirectorDidntReturnDatabaseInfo" xml:space="preserve">
+    <value>The connection cannot be opened because the redirector service did not provide required database information.</value>
+  </data>
+  <data name="Authentication_ClaimsToken_AdalError" xml:space="preserve">
+    <value>Authentication failed: Microsoft.IdentityModel.Clients.ActiveDirectory failed with error: '{0}'.</value>
+  </data>
+  <data name="DirectoryNotFound" xml:space="preserve">
+    <value>"Directory '{0}' does not exist."</value>
+  </data>
+  <data name="InternalError" xml:space="preserve">
+    <value>Internal error.</value>
+  </data>
+  <data name="ConnectionString_UnsupportedPropertyValue" xml:space="preserve">
+    <value>The value '{1}' is not supported for the connection string property '{0}'.</value>
+  </data>
+  <data name="ConnectionString_MissingIdentityProviderForIntegratedSecurityFederated" xml:space="preserve">
+    <value>Sign in failed because the identity provider property is missing. This property is required when integrated security is set to federated.</value>
+  </data>
+  <data name="ConnectionString_ExpectedSemicolonNotFound" xml:space="preserve">
+    <value>A semicolon was expected at index {0} in the connection string.</value>
+  </data>
+  <data name="ProvidePath" xml:space="preserve">
+    <value>Path should be provided.</value>
+  </data>
+  <data name="EmptyRootIsNotEmpty" xml:space="preserve">
+    <value>XML for Analysis protocol error: The root element must be empty.</value>
+  </data>
+  <data name="UnsupportedDataFormat" xml:space="preserve">
+    <value>Unsupported data format : {0}</value>
+  </data>
+  <data name="Reconnect_SessionIDIsMissing" xml:space="preserve">
+    <value>The session was either lost or was never established.</value>
+  </data>
+  <data name="Resultset_IsNotRowset" xml:space="preserve">
+    <value>The result set returned by the server is not a rowset.</value>
+  </data>
+  <data name="ConnectionString_ExpectedEqualSignNotFound" xml:space="preserve">
+    <value>An equal sign was expected after index {0} in the connection string.</value>
+  </data>
+  <data name="AfterExceptionAllTagsShouldCloseUntilMessagesSection" xml:space="preserve">
+    <value>XML for Analysis protocol error: The server response format is unexpected. All tags between an Exception element and the Messages section must be closed.</value>
+  </data>
+  <data name="ConnectionString_LinkFileInvalidServer" xml:space="preserve">
+    <value>BISM connection files cannot reference other BISM connection files. To continue, specify a tabular database that is deployed to an Analysis Services instance running in tabular mode.</value>
+  </data>
+  <data name="Authentication_ClaimsToken_AdalLoadingError" xml:space="preserve">
+    <value>Authentication failed: Microsoft.IdentityModel.Clients.ActiveDirectory failed to load '{0}'.</value>
+  </data>
+  <data name="Connection_WorkbookIsOutdated" xml:space="preserve">
+    <value>The connection to the current workbook has been closed because a newer version of the workbook exists in SharePoint. To continue, reopen the workbook to get the newer version.</value>
+  </data>
+  <data name="Authentication_MsoID_SsoFailed" xml:space="preserve">
+    <value>Microsoft Online Services Sign In Assistant could not sign you in.</value>
+  </data>
+  <data name="LocalCube_FileNotOpened" xml:space="preserve">
+    <value>The '{0}' local cube file cannot be opened.</value>
+  </data>
+  <data name="XmlaClient_SendRequest_NoRequestWasCreated" xml:space="preserve">
+    <value>The request was not created.</value>
+  </data>
+  <data name="ConnectionString_InvalidImpersonationLevelForHttp" xml:space="preserve">
+    <value>The impersonation level '{0}' is not supported for HTTP connections.</value>
+  </data>
+  <data name="XmlaClient_StartRequest_ThereIsAnotherPendingResponse" xml:space="preserve">
+    <value>An open response reader already exists.</value>
+  </data>
+  <data name="ConnectionString_InvalidPropertyNameFormat" xml:space="preserve">
+    <value>The '{0}' property name is not formatted correctly.</value>
+  </data>
+  <data name="Authentication_Sspi_FlagNotEstablished" xml:space="preserve">
+    <value>Authentication failed: The '{0}' SSPI flag cannot be established with the server.</value>
+  </data>
+  <data name="SoapFormatter_ResponseIsNotDataset" xml:space="preserve">
+    <value>The response is not in data set format.</value>
+  </data>
+  <data name="ConnectionString_DataSourceTypeDoesntSupportQuery" xml:space="preserve">
+    <value>The data source type doesn't support query parameters.</value>
+  </data>
+  <data name="ConnectionString_LinkFileDownloadError" xml:space="preserve">
+    <value>Could not download connection file '{0}'.</value>
+  </data>
+  <data name="DimeWriter_WriterIsClosed" xml:space="preserve">
+    <value>DIME protocol error: The DimeWriter object is closed.</value>
+  </data>
+  <data name="DimeRecord_IDIsOnlyForFirstChunk" xml:space="preserve">
+    <value>DIME protocol error: A record header can have an ID only for the first chunk.</value>
+  </data>
+  <data name="DimeRecord_InvalidUriFormat" xml:space="preserve">
+    <value>DIME protocol error: The '{0}' URI format is not valid.</value>
+  </data>
+  <data name="CannotConnect" xml:space="preserve">
+    <value>A connection cannot be made. Ensure that the server is running.</value>
+  </data>
+  <data name="DimeRecord_InvalidChunkSize" xml:space="preserve">
+    <value>DIME protocol error: The chunk size must be greater than 0.</value>
+  </data>
+  <data name="DimeRecord_TypeFormatEnumUnchangedNotAllowed" xml:space="preserve">
+    <value>DIME protocol error: The typeFormat parameter cannot be set to TypeFormatEnum.Unchanged.</value>
+  </data>
+  <data name="Connection_AnalysisServicesInstanceWasMoved" xml:space="preserve">
+    <value>Analysis Services instance you are connecting to has moved. Please reconnect.</value>
+  </data>
+  <data name="AlreadyConnected" xml:space="preserve">
+    <value>The client is already connected.</value>
+  </data>
+  <data name="DimeReader_CannotReadFromStream" xml:space="preserve">
+    <value>DIME protocol error: The stream cannot be read.</value>
+  </data>
+  <data name="DimeRecord_TypeFormatShouldBeUnchanged" xml:space="preserve">
+    <value>DIME protocol error: A chunk with the '{0}' type format was encountered. The type format must be Unchanged (value 0x00) for a chunk other than the first chunk.</value>
+  </data>
+  <data name="IXMLAInterop_StreamDoesNotSupportLocking" xml:space="preserve">
+    <value>The stream does not support the LockRegion method.</value>
+  </data>
+  <data name="TcpStream_MaxSignatureExceedsProtocolLimit" xml:space="preserve">
+    <value>The maximum signature size exceeds the protocol limit.</value>
+  </data>
+  <data name="Dime_DataTypeNotSupported" xml:space="preserve">
+    <value>DIME protocol error: This version of DIME does not support the '{0}' data type.</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>The client is not connected.</value>
+  </data>
+  <data name="Authentication_Sspi_SchannelUnsupportedProtectionLevel" xml:space="preserve">
+    <value>Authentication failed: Unsupported protection level for Schannel.</value>
+  </data>
+  <data name="DimeRecord_StreamShouldBeWriteable" xml:space="preserve">
+    <value>DIME protocol error: The stream cannot be written to.</value>
+  </data>
+  <data name="ConnectionCannotBeUsedWhileXmlReaderOpened" xml:space="preserve">
+    <value>The connection cannot be used while an XmlReader object is open.</value>
+  </data>
+  <data name="ConnectionString_PropertyNotApplicableWithTheDataSourceType" xml:space="preserve">
+    <value>The '{0}' connection string property is not applicable for the specified data source type.</value>
+  </data>
+  <data name="DimeRecord_ContentLengthExceeded" xml:space="preserve">
+    <value>DIME protocol error: The number of bytes written exceed the specified content length.</value>
+  </data>
+  <data name="UnknownServerResponseFormat" xml:space="preserve">
+    <value>The server sent an unrecognizable response.</value>
+  </data>
+  <data name="SoapFormatter_ResponseIsNotRowset" xml:space="preserve">
+    <value>The response is not in rowset format.</value>
+  </data>
+  <data name="ConnectionString_LinkFileParseError" xml:space="preserve">
+    <value>The connection file is either not well formed or is larger than the allowed maximum of {0} characters.</value>
+  </data>
+  <data name="InvalidArgument" xml:space="preserve">
+    <value>Invalid argument.</value>
+  </data>
+  <data name="DimeRecord_PropertyOnlyAvailableForReadRecords" xml:space="preserve">
+    <value>DIME protocol error: The property is supported only while a record is being read.</value>
+  </data>
+  <data name="Authentication_Sspi_SchannelAnonymousAmbiguity" xml:space="preserve">
+    <value>Authentication failed: Impersonation Level set to 'Anonymous' implies that Certificate would not be provided in the connection string.</value>
+  </data>
+  <data name="DimeRecord_ReadNotAllowed" xml:space="preserve">
+    <value>DIME protocol error: Read operations are not allowed.</value>
+  </data>
+  <data name="UnexpectedXsiType" xml:space="preserve">
+    <value>The '{0}' xsi type is not expected.</value>
+  </data>
+  <data name="Authentication_Sspi_SchannelSupportsOnlyPrivacyLevel" xml:space="preserve">
+    <value>Authentication failed: Schannel supports only 'Privacy' protection level.</value>
+  </data>
+  <data name="Cancel_SessionIDNotSpecified" xml:space="preserve">
+    <value>The SessionID property was not specified.</value>
+  </data>
+  <data name="ConnectionString_InvalidImpersonationLevelForHttps" xml:space="preserve">
+    <value>The impersonation level '{0}' is not supported for HTTPS connections.</value>
+  </data>
+  <data name="ConnectionString_Invalid" xml:space="preserve">
+    <value>The connection string is not valid.</value>
+  </data>
+  <data name="DimeRecord_OffsetAndCountShouldBePositive" xml:space="preserve">
+    <value>DIME protocol error: The offset and the count must both be greater than or equal to 0. </value>
+  </data>
+  <data name="Authentication_Sspi_SchannelCantDelegate" xml:space="preserve">
+    <value>Authentication failed: Schannel does not support 'Delegate' impersonation level.</value>
+  </data>
+  <data name="XmlaClient_ConnectTimedOut" xml:space="preserve">
+    <value>The connection timed out.</value>
+  </data>
+  <data name="IXMLAInterop_OnlyZeroOffsetIsSupported" xml:space="preserve">
+    <value>Only a zero offset is supported.</value>
+  </data>
+  <data name="Authentication_Sspi_PackageNotFound" xml:space="preserve">
+    <value>Authentication failed: The '{0}' SSPI package is not supported.</value>
+  </data>
+  <data name="HttpStream_ASAzure_TechnicalDetailsText" xml:space="preserve">
+    <value>
+
+Technical Details:
+RootActivityId: {0}
+Date (UTC): {1}</value>
+  </data>
+  <data name="CannotConnectToRedirector" xml:space="preserve">
+    <value>A connection cannot be made to redirector. Ensure that 'SQL Browser' service is running.</value>
+  </data>
+  <data name="Decompression_InitializationFailed" xml:space="preserve">
+    <value>Decompression initialization failed.</value>
+  </data>
+  <data name="DataReader_IndexOutOfRange" xml:space="preserve">
+    <value>The index within the row from which to begin the read operation is out of range.</value>
+  </data>
+  <data name="ConnectionString_ExternalConnectionIsIncomplete" xml:space="preserve">
+    <value>The required '{0}' property is missing from the connection string for External Model access.</value>
+  </data>
+  <data name="Authentication_ClaimsToken_AuthorityNotFound" xml:space="preserve">
+    <value>Authentication failed: Authority is not found for ClaimsToken integrated security (either valid Identity Provider or valid AS Azure data source is requierd).</value>
+  </data>
+  <data name="Authentication_ClaimsToken_UserIdAndPasswordRequired" xml:space="preserve">
+    <value>Authentication failed: User ID and Password are required when user interface is not available.</value>
+  </data>
+  <data name="ConnectionString_OpenedQuoteIsNotClosed" xml:space="preserve">
+    <value>The opening quotation mark (at index {1} in the connection string) requires a closing quotation mark.</value>
+  </data>
+  <data name="ErrorCodeIsMissingFromRowsetError" xml:space="preserve">
+    <value>XML for Analysis protocol error: The rowset error is missing an error code.</value>
+  </data>
+  <data name="DimeRecord_VersionNotSupported" xml:space="preserve">
+    <value>DIME protocol error: The '{0}' DIME version is not supported. Only version 1 is supported.</value>
+  </data>
+  <data name="ConnectionString_InvalidCharInUnquotedPropertyValue" xml:space="preserve">
+    <value>The property value containing the '{0}' character (at index {1} in the connection string) must be enclosed in quotation marks.</value>
+  </data>
+  <data name="DataReaderInvalidRowError" xml:space="preserve">
+    <value>The data reader object is not positioned at a valid row.</value>
+  </data>
+  <data name="UnrecognizedElementInMessagesSection" xml:space="preserve">
+    <value>XML for Analysis protocol error: The '{0}' element in the Messages section is unrecognized.</value>
+  </data>
+</root>

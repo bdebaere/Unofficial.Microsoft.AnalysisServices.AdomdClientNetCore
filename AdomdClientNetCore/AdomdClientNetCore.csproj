@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>15.3.1</Version>
+    <PackageId>Unofficial.Microsoft.AnalysisServices.AdomdClientNetCore</PackageId>
+    <Authors>Microsoft</Authors>
+    <Description>Unofficial AdomdClient ported to .NET Core. WARNING: may not support your scenario, use at your own risk! WARNING: does not support WindowsPrincipal.</Description>
+    <PackageTags>Adomd AdomdClient AdomdClientNetCore AdomdClientCore Microsoft.AnalysisServices.AdomdClient</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Principal.Windows" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
