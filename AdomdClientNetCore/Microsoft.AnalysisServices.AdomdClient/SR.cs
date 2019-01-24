@@ -161,14 +161,12 @@ namespace Microsoft.AnalysisServices.AdomdClient
 
 			public static string GetString(string key)
 			{
-                return String.Empty;
-				return SR.Keys.resourceManager.GetString(key, SR.Keys._culture);
+                return SR.Keys.resourceManager.GetString(key, SR.Keys._culture);
 			}
 
 			public static string GetString(string key, object arg0)
 			{
-			    return String.Empty;
-                return string.Format(CultureInfo.CurrentCulture, SR.Keys.resourceManager.GetString(key, SR.Keys._culture), new object[]
+			    return string.Format(CultureInfo.CurrentCulture, SR.Keys.resourceManager.GetString(key, SR.Keys._culture), new object[]
 				{
 					arg0
 				});
@@ -176,8 +174,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 
 			public static string GetString(string key, object arg0, object arg1)
 			{
-			    return String.Empty;
-                return string.Format(CultureInfo.CurrentCulture, SR.Keys.resourceManager.GetString(key, SR.Keys._culture), new object[]
+			    return string.Format(CultureInfo.CurrentCulture, SR.Keys.resourceManager.GetString(key, SR.Keys._culture), new object[]
 				{
 					arg0,
 					arg1
@@ -186,8 +183,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 
 			public static string GetString(string key, object arg0, object arg1, object arg2)
 			{
-			    return String.Empty;
-                return string.Format(CultureInfo.CurrentCulture, SR.Keys.resourceManager.GetString(key, SR.Keys._culture), new object[]
+			    return string.Format(CultureInfo.CurrentCulture, SR.Keys.resourceManager.GetString(key, SR.Keys._culture), new object[]
 				{
 					arg0,
 					arg1,

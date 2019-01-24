@@ -5602,6 +5602,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 					throw new AdomdConnectionException(XmlaSR.ConnectionString_Invalid, innerException2);
 				}
 			}
+
 			ConnectionInfo connectionInfo2 = connectionInfo.CloneForInstanceLookup();
 			XmlaClient xmlaClient = new XmlaClient();
 			xmlaClient.Connect(connectionInfo2, false);
@@ -5649,8 +5650,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 			finally
 			{
 				xmlaClient.Disconnect(false);
-			}
-			return result;
+			}			
 		}
 
 		private static TcpClient GetTcpClient(ConnectionInfo connectionInfo)

@@ -175,7 +175,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 					default:
 						throw new AdomdConnectionException(XmlaSR.Authentication_Sspi_SchannelUnsupportedProtectionLevel, null, ConnectionExceptionCause.AuthenticationFailed);
 					}
-					break;
+					
 				case ImpersonationLevel.Delegate:
 					throw new AdomdConnectionException(XmlaSR.Authentication_Sspi_SchannelCantDelegate, null, ConnectionExceptionCause.AuthenticationFailed);
 				default:

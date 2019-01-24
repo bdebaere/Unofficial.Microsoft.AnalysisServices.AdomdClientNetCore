@@ -310,16 +310,12 @@ namespace Microsoft.AnalysisServices.AdomdClient
 			}
 
 			public static string GetString(string key)
-			{
-			    return string.Empty;
-
+			{			    
 				return XmlaSR.Keys.resourceManager.GetString(key, XmlaSR.Keys._culture);
 			}
 
 			public static string GetString(string key, object arg0)
-			{
-			    return string.Empty;
-
+			{			    
 				return string.Format(CultureInfo.CurrentCulture, XmlaSR.Keys.resourceManager.GetString(key, XmlaSR.Keys._culture), new object[]
 				{
 					arg0
@@ -327,9 +323,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 			}
 
 			public static string GetString(string key, object arg0, object arg1)
-			{
-			    return string.Empty;
-
+			{			    
 				return string.Format(CultureInfo.CurrentCulture, XmlaSR.Keys.resourceManager.GetString(key, XmlaSR.Keys._culture), new object[]
 				{
 					arg0,
@@ -338,9 +332,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 			}
 
 			public static string GetString(string key, object arg0, object arg1, object arg2)
-			{
-                return String.Empty;
-
+			{                
 				return string.Format(CultureInfo.CurrentCulture, XmlaSR.Keys.resourceManager.GetString(key, XmlaSR.Keys._culture), new object[]
 				{
 					arg0,

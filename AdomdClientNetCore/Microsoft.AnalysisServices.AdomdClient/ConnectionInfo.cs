@@ -2591,8 +2591,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 					catch (OverflowException innerException2)
 					{
 						throw new ArgumentException(XmlaSR.ConnectionString_UnsupportedPropertyValue("Timeout", value), innerException2);
-					}
-					return true;
+					}					
 				}
 				this.timeout = 0;
 				return true;
@@ -2651,8 +2650,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 				catch (OverflowException innerException2)
 				{
 					throw new ArgumentException(XmlaSR.ConnectionString_UnsupportedPropertyValue("Auto Synch Period", value), innerException2);
-				}
-				return false;
+				}				
 			}
 			return false;
 		}
