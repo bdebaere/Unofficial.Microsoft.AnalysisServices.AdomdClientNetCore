@@ -289,7 +289,7 @@ namespace Microsoft.AnalysisServices.AdomdClient
 
 			public const string HttpStream_ASAzure_TechnicalDetailsText = "HttpStream_ASAzure_TechnicalDetailsText";
 
-			private static ResourceManager resourceManager = new ResourceManager(typeof(XmlaSR).FullName, typeof(XmlaSR).Module.Assembly);
+			private static ResourceManager resourceManager = new ResourceManager("AdomdClientNetCore.Microsoft.AnalysisServices.AdomdClient.XmlaSR", typeof(XmlaSR).Module.Assembly);
 
 			private static CultureInfo _culture = null;
 

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>15.3.1.1</Version>
+    <Version>15.3.1.2</Version>
     <PackageId>Unofficial.Microsoft.AnalysisServices.AdomdClientNetCore</PackageId>
     <Authors>Microsoft</Authors>
     <Description>Unofficial AdomdClient ported to .NET Core. WARNING: may not support your scenario, use at your own risk! WARNING: does not support WindowsPrincipal.</Description>
